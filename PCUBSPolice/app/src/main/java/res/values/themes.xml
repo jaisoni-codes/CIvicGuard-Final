@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PCUBSPolice" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#BCD2E8</item>
+        <item name="colorPrimaryVariant">#91BAD6</item>
+        <item name="colorOnPrimary">#73A5C6</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#528AAE</item>
+        <item name="colorSecondaryVariant">#2E5984</item>
+        <item name="colorOnSecondary">#1E3F66</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Navigation bar color. -->
+        <item name="android:navigationBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.PCUBS.SplashScreen" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#BCD2E8</item>
+        <item name="colorPrimaryVariant">#91BAD6</item>
+        <item name="colorOnPrimary">#73A5C6</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#528AAE</item>
+        <item name="colorSecondaryVariant">#2E5984</item>
+        <item name="colorOnSecondary">#1E3F66</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Navigation bar color. -->
+        <item name="android:navigationBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="CustomToolbarStyle">
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:colorControlNormal">#FFFFFF</item>
+    </style>
+
+</resources>
